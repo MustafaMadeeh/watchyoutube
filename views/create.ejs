@@ -1,0 +1,31 @@
+<%- include('partials/header') %>
+
+<div class="join">
+  <div class="container">
+    <h1>انشاء أو الأنضمام لغرفة</h1>
+
+  <!-- Default form group -->
+<form action="/room">
+  <!-- Default input -->
+  <div class="md-form">
+    <input type="text" id="username" name="username" class="form-control" required>
+    <label for="form1">أسم المستخدم</label>
+  </div>
+  <!-- Default input -->
+  <div class="md-form"> 
+    <input type="text" id="roomid" name="roomid" class="form-control" required>
+    <label for="form1">أسم الغرفة أو رقم الغرفة</label>
+  </div>
+  <button type="submit" class="btn btn-primary">انشاء/أنضمام</button>
+
+</form>
+<!-- Default form group -->
+   
+  
+  
+  </div>
+  </div>
+</div>
+
+
+<%- include('partials/footer') %>

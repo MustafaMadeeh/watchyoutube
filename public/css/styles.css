@@ -1,0 +1,289 @@
+body {
+font-family: 'Cairo', sans-serif;
+  font-weight: 400;
+}
+
+
+/* navbar   */
+
+.nav-link {
+  font-weight: 400;
+}
+
+#paste {
+  width: 20%;
+}
+/* home page */
+
+/* Main section */
+.home {
+  text-align: center;
+  padding: 2rem;
+  height: 80vh;
+  background-image: url("/img/movie.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#card-title {
+  font-family: "Roboto", sans-serif !important;
+  font-weight: 500;
+}
+
+#welcome {
+  color: white;
+  font-weight: 500;
+}
+
+.welcome-home {
+  padding-top: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcome-card .btn {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.call-to-action {
+  text-align: center;
+  margin-bottom: 4%;
+}
+
+/* footer  */
+
+.footer {
+  height: 20vh;
+  background: #292b2c;
+  color: white;
+  padding: 30px 30px;
+}
+
+.footer li {
+  list-style: none;
+}
+
+/* join page */
+
+.join {
+  height: 80vh;
+  padding-top: 10vh;
+  font-family: "Roboto", sans-serif;
+}
+
+.join h1 {
+  font-weight: 600;
+}
+
+.room-info-p {
+  font-weight: 400;
+}
+
+/* room page  */
+
+
+#chat-form {
+  width: 100%;
+}
+
+#name {
+  color: #575ed8;
+}
+
+#roomBasic {
+  font-weight: 600;
+}
+
+.section {
+  height: 80vh;
+}
+
+#mario-chat {
+  max-width: 500px;
+  border: 1px solid #ddd;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.05);
+  border-radius: 2px;
+}
+
+#chat-holder {
+  margin: 11vh 3vh;
+}
+
+
+#chat-window {
+  height: 50vh;
+  overflow: auto;
+  background: #f9f9f9;
+}
+
+#sentText {
+  padding: 14px 0px;
+  margin: 0 20px;
+  border-bottom: 1px solid #e9e9e9;
+  color: #555;
+}
+
+#sentText p {
+  font-size: 1.1rem;
+  margin-bottom: 0.1px;
+}
+
+#feedback p {
+  color: #aaa;
+  padding: 14px 0px;
+  margin: 0 20px;
+}
+
+#output strong {
+  color: #575ed8;
+}
+
+#mario-chat input {
+  padding: 10px 20px;
+  box-sizing: border-box;
+  background: #eee;
+  border: 0;
+  display: block;
+  width: 100%;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  font-size: 16px;
+}
+
+#send {
+  background-color: #292b2c;
+  color: #fff;
+  font-size: 18px;
+  border: 0;
+  padding: 12px 0;
+  width: 100%;
+  border-radius: 0 0 2px 2px;
+}
+
+#player {
+  margin: 30px 30px;
+  border: 1px solid #ddd;
+  height: 62vh;
+  width: 100%;
+}
+
+.main-section h1 {
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.info {
+  margin: 30px 30px;
+}
+
+.leave {
+  background: #575ed8;
+  font-size: 18px;
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* info section */
+
+.info {
+  height: 50vh;
+  font-family: "Roboto", sans-serif;
+}
+
+#welcome-room {
+  font-weight: 600;
+}
+
+
+/* about section  */
+
+.about {
+  height: 80vh;
+  padding-left: 4vh;
+  padding-top: 2vh;
+  width: 60%;
+}
+
+.contact-section {
+  height: 80vh;
+}
+
+#contact-h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+/* media queries  */
+ 
+@media only screen and (max-width: 990px) {
+  #paste {
+    width: 50%;
+    margin-bottom: 10px;
+  }  
+
+}
+
+@media only screen and (max-width: 764px) {
+
+  
+#chat-form {
+  width: 100%;
+}
+  #roomBasic {
+    margin: 0;
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
+
+  .footer {
+    height: 30vh;
+  }
+
+  #player {
+    width: 95%;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .about {
+    height: 90vh;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .section {
+    height: 1300px;
+  }
+
+  .main-section {
+    padding: 0;
+    margin-bottom: 0;
+  }
+
+  #leave {
+    width: 100%;
+  }
+
+  #mario-chat {
+    margin-right: 0 !important;
+    width: 100%;
+  }
+
+  #video {
+    width: 764px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .main-section {
+    text-align: center;
+  }
+} 
+
+* {
+    font-family: 'Cairo', sans-serif;
+}
